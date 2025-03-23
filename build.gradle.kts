@@ -49,3 +49,12 @@ kotlin {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
+tasks.jar {
+    manifest {
+        attributes(
+            "Main-Class" to "com.github.it.springtest.SpringTestApplication"
+        )
+    }
+    enabled = true
+}
