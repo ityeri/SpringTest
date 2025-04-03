@@ -9,14 +9,9 @@ import org.springframework.web.bind.annotation.RestController
 @SpringBootApplication
 class SpringTestApplication {
 
-    @RequestMapping("/")
-    fun home(): String {
-        return "Hello Spring Test"
-    }
-
-    @RequestMapping("/wasans")
+    @RequestMapping("/asdf")
     fun sans(): String {
-        return "와 파피루스"
+        return "asdlkfajsdfkl;j"
     }
 }
 
